@@ -64,9 +64,7 @@ private static int contador = 0;
         String resultado1 = NameFormatter.formatName(name1); //! Compara que sean iguales
         Assertions.assertEquals("John Doe", resultado1, "Se esperaba John Doe");
     }
-
-    //? ****************************************************
-
+    
     @Nested //! Declarar clases internas con grupos de pruebas
     class pruebasAnidadas {
 
@@ -118,8 +116,6 @@ private static int contador = 0;
                 .toList();
     }
 
-
-    //* Esto no es necesario, es lo que le pidió el profe a Ricardo la clase anterior
     //! Forma para reunir los primeros test en uno solo
     @TestFactory
     @DisplayName("Test de formato de nombres")
