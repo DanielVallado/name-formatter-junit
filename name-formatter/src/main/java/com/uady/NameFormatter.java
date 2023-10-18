@@ -3,7 +3,7 @@ package com.uady;
 public class NameFormatter {
 
     public static String formatName(String name) {
-        if (name == null || name.isBlank()) {
+        if (name == null || name.isEmpty()) {
             return null;
         }
 

@@ -1,2 +1,6 @@
-com\uady\Main.class
+com\uady\NamePrinter.class
 com\uady\util\MyFileReader.class
+com\uady\Booleanos.class
+com\uady\NameFormatter.class
+com\uady\Main.class
+com\uady\NameProcessor.class
